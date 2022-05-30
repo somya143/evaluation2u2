@@ -12,7 +12,7 @@
       }
       #banner{
         border: 1px solid red;width: 1000px;height: 200px;margin: auto;background-color: rgb(83, 83, 172);
-        display: flex;justify-content: space-between;border-radius: 10px;
+        display: flex;justify-content: space-between;border-radius: 10px;margin-bottom: 30px;
       }
       #banner>div:first-child{
         border: 1px solid red;width: 30%;height: 60%;margin-top: 30px;margin-left: 30px;color: white;
@@ -21,7 +21,23 @@
          border: 1px solid transparent;width: 80px;height: 20px;border-radius: 7px;
        }
        #banner>div:last-child>img{
-         border: 1px solid red;width: 90%;height: 100%;
+         width: 90%;height: 100%;
+       }
+       #services{
+        width: 1000px;height: 200px;margin: auto;display: grid;
+        grid-template-columns: repeat(6 , 1fr);grid-template-rows: 220px;gap: 10px;margin-bottom: 60px;
+       }
+       #services>div{
+         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+       }
+       #services>div>img{
+         width: 100%;height: 60%;background-color: lightblue;
+       }
+       #services>div>h2{
+         font-size: 15px;padding-left: 20px;padding-bottom: 7px;padding-top: 10px;
+       }
+       #services>div>p{
+         font-size: 10px;color: grey;padding-left: 20px;
        }
        
 
@@ -43,10 +59,17 @@
           <p>Choose the experts in end to end surgical care</p>
           <button>Know More</button>
         </div>
-        <div><img src="https://www.practostatic.com/consumer-home/practo-care/1631634827/dweb_hero_banner.png" alt="ERROR"></div>
+        <div><img src="https://www.practostatic.com/consumer-home/practo-care/1631634827/dweb_hero_banner.png" alt="ERROR">
+        </div>
       </div>
       <div id="services">
         <!-- Here should be 6 divs. All of them should be in a single line for large screen. For medium and large screen refer to question statement -->
+     <div><img src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png" alt="ERROR"><h2>Instant Video Cunsultation</h2><p>Connect within 60 secs</p></div>
+     <div><img src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png" alt="ERROR"><h2>Instant Video Cunsultation</h2><p>Connect within 60 secs</p></div>
+     <div><img src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png" alt="ERROR"><h2>Instant Video Cunsultation</h2><p>Connect within 60 secs</p></div>
+     <div><img src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png" alt="ERROR"><h2>Instant Video Cunsultation</h2><p>Connect within 60 secs</p></div>
+     <div><img src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png" alt="ERROR"><h2>Instant Video Cunsultation</h2><p>Connect within 60 secs</p></div>
+     <div><img src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png" alt="ERROR"><h2>Instant Video Cunsultation</h2><p>Connect within 60 secs</p></div>
       </div>
       <div id="works">
         <h1>Book an appointment for an in-clinic consultation</h1>
