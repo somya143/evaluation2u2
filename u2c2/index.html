@@ -10,8 +10,20 @@
         margin: 0px;
         padding: 0px;
       }
-
-
+      #banner{
+        border: 1px solid red;width: 1000px;height: 200px;margin: auto;background-color: rgb(83, 83, 172);
+        display: flex;justify-content: space-between;border-radius: 10px;
+      }
+      #banner>div:first-child{
+        border: 1px solid red;width: 30%;height: 60%;margin-top: 30px;margin-left: 30px;color: white;
+      }
+       button{
+         border: 1px solid transparent;width: 80px;height: 20px;border-radius: 7px;
+       }
+       #banner>div:last-child>img{
+         border: 1px solid red;width: 90%;height: 100%;
+       }
+       
 
       /* Medium Screen */
       @media only screen and (min-width: 500px) and (max-width: 768px) {
@@ -26,6 +38,12 @@
     <div id="main">
       <div id="banner">
         <!-- Here should be 2 divs one for the banner heading and button and the second is for banner image -->
+        <div>
+          <h1>You are in safe hands</h1>
+          <p>Choose the experts in end to end surgical care</p>
+          <button>Know More</button>
+        </div>
+        <div><img src="https://www.practostatic.com/consumer-home/practo-care/1631634827/dweb_hero_banner.png" alt="ERROR"></div>
       </div>
       <div id="services">
         <!-- Here should be 6 divs. All of them should be in a single line for large screen. For medium and large screen refer to question statement -->
