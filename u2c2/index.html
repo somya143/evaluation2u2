@@ -11,11 +11,11 @@
         padding: 0px;
       }
       #banner{
-        border: 1px solid red;width: 1000px;height: 200px;margin: auto;background-color: rgb(83, 83, 172);
+        width: 1000px;height: 200px;margin: auto;background-color: rgb(83, 83, 172);
         display: flex;justify-content: space-between;border-radius: 10px;margin-bottom: 30px;
       }
       #banner>div:first-child{
-        border: 1px solid red;width: 30%;height: 60%;margin-top: 30px;margin-left: 30px;color: white;
+        width: 30%;height: 60%;margin-top: 30px;margin-left: 30px;color: white;
       }
        button{
          border: 1px solid transparent;width: 80px;height: 20px;border-radius: 7px;
@@ -39,7 +39,29 @@
        #services>div>p{
          font-size: 10px;color: grey;padding-left: 20px;
        }
-       
+
+       #works>h1{
+        text-align: center;
+       }
+       #works>p{
+         text-align: center;padding-bottom: 20px;
+       }
+       #works>div{
+         width: 1000px;height: 400px;margin: auto;display: grid;grid-template-columns: repeat(4 , 1fr);
+         grid-template-rows: repeat(2,200px);gap: 15px;
+       }
+       #works>div>div{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+       }
+       #works>div>div>img{
+         width: 100%;height: 70%;
+       }
+       #works>div>div>h2{
+         font-size: 15px;
+       }
+       #works>div>div>p{
+         font-size: 10px; font-weight: bolder;
+       }
 
       /* Medium Screen */
       @media only screen and (min-width: 500px) and (max-width: 768px) {
@@ -76,6 +98,15 @@
         <p>Find experienced doctors across all specialties</p>
         <div>
           <!-- Here should be 8 divs. They should be in 4 colums and two rows for large screen.For medium and large screen refer to question statement -->
+         <div><img src="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dentist@2x.jpg" alt="ERROR"><h2>Dentist</h2><p>Teething trouble?Schedule a dental checkup</p></div>
+         <div><img src="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dentist@2x.jpg" alt="ERROR"><h2>Dentist</h2><p>Teething trouble?Schedule a dental checkup</p></div>
+         <div><img src="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dentist@2x.jpg" alt="ERROR"><h2>Dentist</h2><p>Teething trouble?Schedule a dental checkup</p></div>
+         <div><img src="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dentist@2x.jpg" alt="ERROR"><h2>Dentist</h2><p>Teething trouble?Schedule a dental checkup</p></div>
+         <div><img src="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dentist@2x.jpg" alt="ERROR"><h2>Dentist</h2><p>Teething trouble?Schedule a dental checkup</p></div>
+         <div><img src="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dentist@2x.jpg" alt="ERROR"><h2>Dentist</h2><p>Teething trouble?Schedule a dental checkup</p></div>
+         <div><img src="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dentist@2x.jpg" alt="ERROR"><h2>Dentist</h2><p>Teething trouble?Schedule a dental checkup</p></div>
+         <div><img src="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dentist@2x.jpg" alt="ERROR"><h2>Dentist</h2><p>Teething trouble?Schedule a dental checkup</p></div>
+        
         </div>
       </div>
     </div>
