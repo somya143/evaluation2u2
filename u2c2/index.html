@@ -10,9 +10,11 @@
         margin: 0px;
         padding: 0px;
       }
+     
+      
       #banner{
         width: 1000px;height: 200px;margin: auto;background-color: rgb(83, 83, 172);
-        display: flex;justify-content: space-between;border-radius: 10px;margin-bottom: 30px;
+        display: flex;justify-content: space-between;border-radius: 10px;margin-bottom: 40px;
       }
       #banner>div:first-child{
         width: 30%;height: 60%;margin-top: 30px;margin-left: 30px;color: white;
@@ -65,10 +67,31 @@
 
       /* Medium Screen */
       @media only screen and (min-width: 500px) and (max-width: 768px) {
+       
+        #banner{
+          flex-direction: column;
+        
+        }
+        #services{
+           grid-template-columns: repeat(3,1fr);grid-template-rows: repeat(2,220px);margin-bottom: 60px;
+          margin-top: 500px;margin-bottom: 300px;
+        }
+        #works{
+          grid-template-columns: repeat(2,1fr);grid-template-rows: repeat(4,200px);
+        }
       }
 
       /* Small Screen */
       @media only screen and (min-width: 320px) and (max-width: 499px) {
+        #banner{
+          flex-direction: column;
+        }
+        #services{
+         grid-template-columns: repeat(2,1fr);grid-template-rows: repeat(3,220px);margin-top: 500px;margin-bottom: 300px;
+        }
+        #works>div{
+          grid-template-columns: repeat(1,fr);grid-template-rows: repeat(8,200px);
+        }
       }
     </style>
   </head>
